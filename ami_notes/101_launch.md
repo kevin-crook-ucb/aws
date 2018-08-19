@@ -18,7 +18,7 @@ Please make sure you are in the right region.  AMIs are stored in a region.  You
 
 Recommended Minimum: 
 
-t2.large - 2 CPUs, 8 GiB RAM, 9 cents an hour current pricing when running, you are only charged for storage when it's not running
+t2.large - 2 CPUs, 8 GiB RAM, **9 cents an hour** current pricing when running, you are only charged for storage when it's not running
 
 Remember one of the advanges of AWS is that you can launch much larger images if you need more CPUs and more memory such as 16 GiB, 32 GiB, 64 GiB, etc.
 
