@@ -4,7 +4,7 @@
 
 ### AMI Details
 
-Please make sure you are in the right region.  AMIs are stored in a region.  You can search on the AMI name, but always verify the AMI ID and the Owner ID before launching.
+Please make sure you are in the right region.  AMIs are stored in a region.  You can search on the AMI name, but always verify the AMI ID before launching.  Anyone can make an image and call it anything, so someone else might create a KevinCrook.com AMI with malicious content.
 
 Region: N. Virgina 
 
@@ -12,15 +12,13 @@ Name: KevinCrook.com 101
 
 AMI ID: ami-019c497a921bc29bd
 
-Owner ID: 716418011119
-
 Storage: 100 GiB, approximately $10 a month with August 2018 pricing to store
 
 ### Sizing the instance
 
 Recommended Minimum: 
 
-t2.large - 2 CPUs, 8 GiB RAM, 9 cents an hour current pricing
+t2.large - 2 CPUs, 8 GiB RAM, 9 cents an hour current pricing when running, you are only charged for storage when it's not running
 
 ### Users
 
